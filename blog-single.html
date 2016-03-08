@@ -40,6 +40,14 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+    body,td,th {
+	font-family: "Open Sans", sans-serif;
+}
+body {
+	background-image: url(img/14.jpg);
+}
+    </style>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -48,7 +56,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   <script src="Scripts/swfobject_modified.js" type="text/javascript"></script>
-  </head>
+</head>
   <body> 
      <!-- BEGAIN PRELOADER -->
     <div id="preloader">
@@ -117,32 +125,34 @@
         <div class="row">         
           <div class="col-lg-8 col-md-8 col-sm-12">
             <!-- BEGAIN BLOG CONTENT -->
-            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="789" height="90" id="FlashID" title="baner">
-              <param name="movie" value="../../Documents/wkh.swf">
-              <param name="quality" value="high">
-              <param name="wmode" value="opaque">
-              <param name="swfversion" value="15.0.0.0">
-              <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
-              <param name="expressinstall" value="Scripts/expressInstall.swf">
-              <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
-              <!--[if !IE]>-->
-              <object type="application/x-shockwave-flash" data="../../Documents/wkh.swf" width="789" height="90">
-                <!--<![endif]-->
-                <param name="quality" value="high">
-                <param name="wmode" value="opaque">
-                <param name="swfversion" value="15.0.0.0">
-                <param name="expressinstall" value="Scripts/expressInstall.swf">
-                <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
-                <div>
-                  <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
-                  <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" width="112" height="33" /></a></p>
-                </div>
-                <!--[if !IE]>-->
-              </object>
-              <!--<![endif]-->
-            </object>
             <div class="blogdetails_content">                             
-              <h2>SOMOS ESPECIALIZTEAS EN.....              </h2>
+              <h2> 
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="789" height="90" id="FlashID" title="jjj">
+                  <param name="movie" value="../wkhlab-master1/wkh.swf">
+                  <param name="quality" value="high">
+                  <param name="wmode" value="opaque">
+                  <param name="swfversion" value="15.0.0.0">
+                  <!-- Esta etiqueta param indica a los usuarios de Flash Player 6.0 r65 o posterior que descarguen la versión más reciente de Flash Player. Elimínela si no desea que los usuarios vean el mensaje. -->
+                  <param name="expressinstall" value="Scripts/expressInstall.swf">
+                  <!-- La siguiente etiqueta object es para navegadores distintos de IE. Ocúltela a IE mediante IECC. -->
+                  <!--[if !IE]>-->
+                  <object type="application/x-shockwave-flash" data="../wkhlab-master1/wkh.swf" width="789" height="90">
+                    <!--<![endif]-->
+                    <param name="quality" value="high">
+                    <param name="wmode" value="opaque">
+                    <param name="swfversion" value="15.0.0.0">
+                    <param name="expressinstall" value="Scripts/expressInstall.swf">
+                    <!-- El navegador muestra el siguiente contenido alternativo para usuarios con Flash Player 6.0 o versiones anteriores. -->
+                    <div>
+                      <h4>El contenido de esta página requiere una versión más reciente de Adobe Flash Player.</h4>
+                      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Obtener Adobe Flash Player" width="112" height="33" /></a></p>
+                    </div>
+                    <!--[if !IE]>-->
+                  </object>
+                  <!--<![endif]-->
+                </object>
+              </h2>
+              <h2>SOMOS ESPECIALIZTEAS EN.....</h2>
               <p>&nbsp;</p>
               <p><img class="img-center" src="img/news.jpg" alt="img">
               </p>
@@ -194,7 +204,7 @@
 
             <!-- Start similar post -->
             <div class="similar_post">
-              <h2> NOSOTROS <i class="fa fa-thumbs-o-up"></i></h2>
+              <h2 class="progress-bar-warning">Similar Post You May Like <i class="fa fa-thumbs-o-up"></i></h2>
              <ul class="popular_tab">
                 <li>
                   <div class="media">
@@ -208,7 +218,7 @@
                      <span class="feed_date">27.02.15</span>
                     </div>
                   </div>
-                </li>
+               </li>
                 <li>
                   <div class="media">
                     <div class="media-left">
@@ -244,7 +254,7 @@
             <div class="blog_sidebar">
               <!-- Start single sidebar -->
               <div class="single_blogsidebar">
-                <h2>----------------</h2>
+                <h2 class="progress-bar-warning">Popular Post</h2>
                 <ul class="popular_tab">
                   <li>
                     <div class="media">
@@ -290,9 +300,9 @@
               <!-- End single sidebar -->
               <!-- Start single sidebar -->
               <div class="single_blogsidebar">
-                <h2>--------------------------</h2>
+                <h2 class="progress-bar-warning">Category</h2>
                 <ul class="catg_nav">
-                    <li class="cat-item"><a href="#">Photography</a></li>
+                  <li class="cat-item"><a href="#">Photography</a></li>
                     <li class="cat-item">
                       <a href="#">Business</a>
                         <ul>
@@ -304,12 +314,12 @@
                     <li class="cat-item"><a href="#">Entertainment</a></li>
                     <li class="cat-item"><a href="#">Fashion</a></li>
                     <li class="cat-item"><a href="#">Bloging</a></li>
-                  </ul>
+                </ul>
               </div>
               <!-- End single sidebar -->
               <!-- Start single sidebar -->
               <div class="single_blogsidebar">
-                <h2>Tags</h2>
+                <h2 class="progress-bar-warning">Tags</h2>
                 <div class="tagcloud">
                   <a href="#"><i class="fa fa-tags"></i>Fashion</a>
                   <a href="#"><i class="fa fa-tags"></i>News</a>
@@ -321,7 +331,7 @@
               <!-- End single sidebar -->
               <!-- Start single sidebar -->
               <div class="single_blogsidebar">
-                <h2>Blog Archive</h2>
+                <h2 class="progress-bar-warning">Blog Archive</h2>
                 <select class="postform">
                   <option value="-1">Select Category</option>
                   <option value="4" class="level-0">Life styles</option>
@@ -333,7 +343,7 @@
               <!-- End single sidebar -->
                    <!-- Start single sidebar -->
               <div class="single_blogsidebar">
-                <h2>Links</h2>
+                <h2 class="progress-bar-warning">Links</h2>
                 <ul>
                   <li><a href="#">Links 1</a></li>
                   <li><a href="#">Links 2</a>
@@ -380,37 +390,37 @@
            </div>
          </div>
        </div>
-      </footer>
+  </footer>
       <!--=========== END FOOTER ================-->
 
      <!-- Javascript Files
      ================================================== -->
   
      <!-- initialize jQuery Library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Google map -->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    <script src="js/jquery.ui.map.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js"></script>
+  <script src="js/jquery.ui.map.js"></script>
      <!-- For smooth animatin  -->
-    <script src="js/wow.min.js"></script> 
+  <script src="js/wow.min.js"></script> 
     <!-- Bootstrap js -->
-    <script src="js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
     <!-- superslides slider -->
-    <script src="js/jquery.superslides.min.js" type="text/javascript"></script>
+  <script src="js/jquery.superslides.min.js" type="text/javascript"></script>
     <!-- slick slider -->
-    <script src="js/slick.min.js"></script>    
+  <script src="js/slick.min.js"></script>    
     <!-- for circle counter -->
-    <script src='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/js/jquery.circliful.min.js'></script>
+  <script src='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/js/jquery.circliful.min.js'></script>
     <!-- for portfolio filter gallery -->
-    <script src="js/modernizr.custom.js"></script>
-    <script src="js/classie.js"></script>
-    <script src="js/elastic_grid.min.js"></script>
-    <script src="js/portfolio_slider.js"></script>
+  <script src="js/modernizr.custom.js"></script>
+  <script src="js/classie.js"></script>
+  <script src="js/elastic_grid.min.js"></script>
+  <script src="js/portfolio_slider.js"></script>
 
     <!-- Custom js-->
-    <script src="js/custom.js"></script>
+  <script src="js/custom.js"></script>
   <script type="text/javascript">
 swfobject.registerObject("FlashID");
-    </script>
-  </body>
+  </script>
+</body>
 </html>
