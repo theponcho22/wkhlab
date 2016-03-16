@@ -22,38 +22,21 @@
 	15. MOBILE MENU CLOSE 	
 	
 **/
-
 jQuery(function($){
-
-
-	/* ----------------------------------------------------------- */
-	/*  1. Superslides Slider
-	/* ----------------------------------------------------------- */
 	jQuery('#slides').superslides({
       animation: 'slide',
       play: '5000'
     });
-	
-	
-	/* ----------------------------------------------------------- */
-	/*  2. Fixed Top Menubar
-	/* ----------------------------------------------------------- */
 
-	// For fixed top bar
        $(window).scroll(function(){
         if($(window).scrollTop() >100 /*or $(window).height()*/){
             $(".navbar-fixed-top").addClass('past-main');   
         }
+
     else{    	
       $(".navbar-fixed-top").removeClass('past-main');
       }
     });
-
-
-	/* ----------------------------------------------------------- */
-	/*  3. Featured Slider
-	/* ----------------------------------------------------------- */
-	
 
     $('.featured_slider').slick({
       dots: true,
@@ -68,11 +51,6 @@ jQuery(function($){
       cssEase: 'linear'
     });
 
-
-	/* ----------------------------------------------------------- */
-	/*  4. Skill Circle
-	/* ----------------------------------------------------------- */
-
 	$('#myStathalf').circliful();
 	$('#myStat').circliful();
 	$('#myStathalf2').circliful();
@@ -80,11 +58,6 @@ jQuery(function($){
 	$('#myStat3').circliful();
 	$('#myStat4').circliful();
 	$('#myStathalf3').circliful();
-
-
-	/* ----------------------------------------------------------- */
-	/*  5. Wow smooth animation
-	/* ----------------------------------------------------------- */
 
 	wow = new WOW(
       {
@@ -355,14 +328,155 @@ jQuery(function($){
 	/*  11. Google Map
 	/* ----------------------------------------------------------- */
 
-	  var zoom= $('#map_canvas').gmap('option', 'zoom');
+	             // When the window has finished loading create our google map below
+            google.maps.event.addDomListener(window, 'load', init);
+        
+            function init() {
+                // Basic options for a simple Google Map
+                // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
+                var mapOptions = {
+                    // How zoomed in you want the map to start at (always required)
+                    zoom: 17,
+
+                    // The latitude and longitude to center the map (always required)
+                    center: new google.maps.LatLng(19.2868, -99.6572), // New York
+
+                    // How you would like to style the map. 
+                    // This is where you would paste any style found on Snazzy Maps.  19.2868686,-99.6571142
+                    styles: [
+    {
+        "featureType": "all",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "color": "#5d8099"
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "gamma": 0.01
+            },
+            {
+                "lightness": 20
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "labels.text.stroke",
+        "stylers": [
+            {
+                "saturation": -31
+            },
+            {
+                "lightness": -33
+            },
+            {
+                "weight": 2
+            },
+            {
+                "gamma": 0.8
+            }
+        ]
+    },
+    {
+        "featureType": "all",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "lightness": 30
+            },
+            {
+                "saturation": 30
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "saturation": 20
+            }
+        ]
+    },
+    {
+        "featureType": "poi.park",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "lightness": 20
+            },
+            {
+                "saturation": -20
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry",
+        "stylers": [
+            {
+                "lightness": 10
+            },
+            {
+                "saturation": -30
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "geometry.stroke",
+        "stylers": [
+            {
+                "saturation": 25
+            },
+            {
+                "lightness": 25
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "lightness": -20
+            }
+        ]
+    }
+]
+                };
+
+                // Get the HTML DOM element that will contain your map 
+                // We are using a div with id="map" seen below in the <body>
+                var mapElement = document.getElementById('map');
+
+                // Create the Google Map using our element and options defined above
+                var map = new google.maps.Map(mapElement, mapOptions);
+
+                // Let's also add a marker while we're at it
+                var marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(40.6700, -73.9400),
+                    map: map,
+                    title: 'Snazzy!'
+                });
+            }
+
       
-      $('#map_canvas').gmap().bind('init', function(ev, map) {
-        $('#map_canvas').gmap('addMarker', {'position': '57.7973433,12.0502107', 'bounds': true});
-        $('#map_canvas').gmap('option', 'zoom', 13);
-      });
-
-
 	/* ----------------------------------------------------------- */
 	/*  12. SCROLL TOP BUTTON
 	/* ----------------------------------------------------------- */

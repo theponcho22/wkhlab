@@ -1,14 +1,3 @@
-/*
-Template Name: SinglePro - Multipurpose Bootstrap HTML5/CSS3 One Page Template
-Template URI:http://www.wpfreeware.com/themes/premium/singlepro/
-Author: WpFreeware
-Author URI: http://www.wpfreeware.com
-Description: SinglePro - Multipurpose Bootstrap HTML5/CSS3 One Page Template.
-Version: 2.0
-Tags: light, white, landing page,single page,Multipurpose,custom-colors,Bootstrap,responsive, html5, css3
-*/
-
-
 /* Table of Content
 ==================================================
 	#BASIC TYPOGRAPHY
@@ -34,23 +23,6 @@ Tags: light, white, landing page,single page,Multipurpose,custom-colors,Bootstra
   background-size: cover;
   background-position: center center;
   z-index: 1;
-}
-
-.demo-1 .large-header {
-  background-image: url('../img/demo-1-bg.jpg');
-}
-
-.demo-2 .large-header {
-  background-image: url('../img/demo-2-bg.jpg');
-  background-position: center bottom;
-}
-
-.demo-3 .large-header {
-  background: #009c9c;
-}
-
-.demo-4 .large-header {
-  background: #009c9c;
 }
 
 .main-title {
@@ -202,6 +174,7 @@ img{
   background-color:#00a7b5; /* change if the mask should have another color then white */
   z-index:99999; /* makes sure it stays on top */
 }
+
 
 #status {
   width:200px;
@@ -1650,7 +1623,7 @@ textarea .form-control {
 }
 
 
-#map_canvas{
+#map{
 	width: 100%;
 	float: left;
 	display: inline;
@@ -1660,7 +1633,7 @@ textarea .form-control {
 
 /*only firefox browser*/
 @-moz-document url-prefix() { 
-	 #map_canvas{
+	 #map{
 		width: 100%;
 		float: left;
 		display: inline;
@@ -1795,8 +1768,8 @@ textarea .form-control {
 
 
 #footer{
-	float: left;
-	display: inline;
+	float: right;
+	display: inline-block;
 	width: 100%;
 	padding: 20px;
 	background-color: #444;
@@ -1804,8 +1777,8 @@ textarea .form-control {
 
 
 .footer_left{
-	float: left;
-	display: inline;
+	float: right;
+	display: inline-block;
 	width: 100%;
 }
 
@@ -1823,7 +1796,7 @@ textarea .form-control {
 
 
 .footer_right{
-	float: left;
+	float: right;
 	display: inline;
 	width: 100%;
 }
@@ -2477,10 +2450,10 @@ textarea .form-control {
 @media(max-width:1199px ){
   .slider_caption > h2 {width: 100%;}
   .blog_slider .slick-prev {left: 91%;}
-  #map_canvas{height: 404px;}
+  #map{height: 404px;}
   /*only firefox browser*/
   @-moz-document url-prefix() { 
-  #map_canvas{height: 404px;	}
+  #map{height: 404px;	}
   }
   .slider_caption {margin-top: 25%;}
   .subscribe_mail {width: 76%;}
