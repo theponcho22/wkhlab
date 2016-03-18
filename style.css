@@ -14,7 +14,10 @@
   #FOOTER
   #BLOG PAGE 
 */
-
+a {
+  color: #fff;
+  text-decoration: none;
+}
 .large-header {
   position: relative;
   width:100%;
@@ -761,7 +764,10 @@ div[data-dimension] {
 	padding: 0px 35px;
 	margin-bottom: 40px;
 }
-
+a {
+  color: #212121;
+  text-decoration: none;
+}
 
 .service_iconarea{
 	text-align: center;
@@ -2599,10 +2605,6 @@ textarea .form-control {
 	
 }
 
-a {
-  color: #fff;
-  text-decoration: none;
-}
 .social {
   position: fixed;
   top: 200px;
