@@ -1734,7 +1734,7 @@ textarea .form-control {
 }
 
 
-#blogBanner {
+#blogBanner1 {
   background-image: url("img/servicios/brand.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1748,7 +1748,7 @@ textarea .form-control {
 }
 
 
-#blogBanner h2 {
+#blogBanner1 h2 {
   color: #fff;
   font-size: 72px;
   font-weight: bold;
@@ -1764,7 +1764,7 @@ textarea .form-control {
 }
 
 
-#blogBanner {
+#blogBanner2 {
   background-image: url("img/servicios/marketing.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1778,7 +1778,7 @@ textarea .form-control {
 }
 
 
-#blogBanner h2 {
+#blogBanner2 h2 {
   color: #fff;
   font-size: 72px;
   font-weight: bold;
@@ -1795,7 +1795,7 @@ textarea .form-control {
 }
 
 
-#blogBanner {
+#blogBanner3 {
   background-image: url("img/servicios/publicitario.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1809,7 +1809,7 @@ textarea .form-control {
 }
 
 
-#blogBanner h2 {
+#blogBanner3 h2 {
   color: #fff;
   font-size: 72px;
   font-weight: bold;
@@ -1826,7 +1826,7 @@ textarea .form-control {
 }
 
 
-#blogBanner {
+#blogBanner4 {
   background-image: url("img/servicios/web.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1840,7 +1840,7 @@ textarea .form-control {
 }
 
 
-#blogBanner h2 {
+#blogBanner4 h2 {
   color: #fff;
   font-size: 72px;
   font-weight: bold;
@@ -1857,7 +1857,7 @@ textarea .form-control {
 }
 
 
-#blogBanner {
+#blogBanner5 {
   background-image: url("img/servicios/multimedia.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1871,7 +1871,7 @@ textarea .form-control {
 }
 
 
-#blogBanner h2 {
+#blogBanner5 h2 {
   color: #fff;
   font-size: 72px;
   font-weight: bold;
@@ -1888,7 +1888,7 @@ textarea .form-control {
 }
 
 
-#blogBanner {
+#blogBanner6 {
   background-image: url("img/servicios/traduccion.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1902,7 +1902,7 @@ textarea .form-control {
 }
 
 
-#blogBanner h2 {
+#blogBanner6 h2 {
   color: #fff;
   font-size: 72px;
   font-weight: bold;
@@ -1919,7 +1919,7 @@ textarea .form-control {
 }
 
 
-#blogBanner {
+#blogBanner7 {
   background-image: url("img/servicios/cursos.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1933,7 +1933,7 @@ textarea .form-control {
 }
 
 
-#blogBanner h2 {
+#blogBanner7 h2 {
   color: #fff;
   font-size: 72px;
   font-weight: bold;
@@ -1950,7 +1950,7 @@ textarea .form-control {
 }
 
 
-#blogBanner {
+#blogBanner8 {
   background-image: url("img/servicios/comunicacion.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1964,7 +1964,7 @@ textarea .form-control {
 }
 
 
-#blogBanner h2 {
+#blogBanner8 h2 {
   color: #fff;
   font-size: 72px;
   font-weight: bold;
@@ -1981,7 +1981,7 @@ textarea .form-control {
 }
 
 
-#blogBanner {
+#blogBanner9 {
   background-image: url("img/servicios/makeover.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1995,7 +1995,7 @@ textarea .form-control {
 }
 
 
-#blogBanner h2 {
+#blogBanner9 h2 {
   color: #fff;
   font-size: 72px;
   font-weight: bold;
@@ -2004,7 +2004,7 @@ textarea .form-control {
 }
 /*==end-makeover==*/
 
-/*====*/
+/*==calidad==*/
 
 .blog_menu{
   background-color: rgba(0, 0, 0, 0.8);
@@ -2012,8 +2012,8 @@ textarea .form-control {
 }
 
 
-#blogBanner {
-  background-image: url("img/servicios/marketing.jpg");
+#blogBanner10 {
+  background-image: url("img/servicios/calidad.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: inline;
@@ -2026,14 +2026,77 @@ textarea .form-control {
 }
 
 
-#blogBanner h2 {
+#blogBanner10 h2 {
   color: #fff;
   font-size: 72px;
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
 }
-/*==end-marketing==*/
+/*==end-calidad==*/
+
+/*==desarrollo==*/
+
+.blog_menu{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+}
+
+
+#blogBanner11 {
+  background-image: url("img/servicios/desarrllo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 75px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+#blogBanner11 h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*==end-desarrollo==*/
+
+/*==ecommcerce==*/
+
+.blog_menu{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+}
+
+
+#blogBanner12 {
+  background-image: url("img/servicios/ecommerce.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 75px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+#blogBanner12 h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*==end-ecommerce==*/
+
 #blog{
   float: left;
   display: inline;
