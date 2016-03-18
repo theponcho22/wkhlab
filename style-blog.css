@@ -1726,7 +1726,7 @@ textarea .form-control {
 }
 
 
-/*====blog section==*/
+/*==BRAND==*/
 
 .blog_menu{
   background-color: rgba(0, 0, 0, 0.8);
@@ -1735,7 +1735,7 @@ textarea .form-control {
 
 
 #blogBanner {
-  background-image: url("img/banner.jpg");
+  background-image: url("img/servicios/brand.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: inline;
@@ -1756,7 +1756,284 @@ textarea .form-control {
   text-transform: uppercase;
 }
 
+/*==marketing==*/
 
+.blog_menu{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+}
+
+
+#blogBanner {
+  background-image: url("img/servicios/marketing.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 75px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+#blogBanner h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*==end-marketing==*/
+
+/*==publicitario==*/
+
+.blog_menu{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+}
+
+
+#blogBanner {
+  background-image: url("img/servicios/publicitario.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 75px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+#blogBanner h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*==end-publicitario==*/
+
+/*==web==*/
+
+.blog_menu{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+}
+
+
+#blogBanner {
+  background-image: url("img/servicios/web.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 75px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+#blogBanner h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*==end-web==*/
+
+/*==multimedia==*/
+
+.blog_menu{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+}
+
+
+#blogBanner {
+  background-image: url("img/servicios/multimedia.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 75px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+#blogBanner h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*==end-multimedia==*/
+
+/*==traduccion==*/
+
+.blog_menu{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+}
+
+
+#blogBanner {
+  background-image: url("img/servicios/traduccion.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 75px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+#blogBanner h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*==end-traduccion==*/
+
+/*==cursos==*/
+
+.blog_menu{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+}
+
+
+#blogBanner {
+  background-image: url("img/servicios/cursos.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 75px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+#blogBanner h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*==end-cursos==*/
+
+/*==comunicacion==*/
+
+.blog_menu{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+}
+
+
+#blogBanner {
+  background-image: url("img/servicios/comunicacion.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 75px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+#blogBanner h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*==end-comunicacion==*/
+
+/*==makeover==*/
+
+.blog_menu{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+}
+
+
+#blogBanner {
+  background-image: url("img/servicios/makeover.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 75px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+#blogBanner h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*==end-makeover==*/
+
+/*====*/
+
+.blog_menu{
+  background-color: rgba(0, 0, 0, 0.8);
+  margin-top: 0px;
+}
+
+
+#blogBanner {
+  background-image: url("img/servicios/marketing.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display: inline;
+  float: left;
+  height: 300px;
+  margin-top: 75px;
+  padding: 118px 0;
+  text-align: center;
+  width: 100%;
+}
+
+
+#blogBanner h2 {
+  color: #fff;
+  font-size: 72px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*==end-marketing==*/
 #blog{
   float: left;
   display: inline;
