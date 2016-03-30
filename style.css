@@ -2259,7 +2259,7 @@ textarea .form-control {
   display: inline;
   float: left;
   margin-bottom: 25px;
-  margin-top: 20px;
+  margin-top: 30px;
   width: 100%;
 }
 
@@ -2607,7 +2607,7 @@ textarea .form-control {
 
 .social {
   position: fixed;
-  top: 200px;
+  top: 250px;
 }
 .social ul {
   padding: 0px;
