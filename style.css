@@ -1783,8 +1783,7 @@ textarea .form-control {
 
 
 .footer_left{
-	float: right;
-	display: inline-block;
+	float: center;
 	width: 100%;
 }
 
@@ -2676,4 +2675,9 @@ textarea .form-control {
   -o-transform: rotate(0deg);
   transform: rotate(0deg);
 }
+.preloaderimg{
+ width:100%;
+    max-width:1040px;
+}
+
 
